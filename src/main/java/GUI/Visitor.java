@@ -1,5 +1,9 @@
 package GUI;
 
+/**
+ * Visitor interface
+ */
+
 public interface Visitor {
     Object visit(Base_Type_Button button);
     Object visit(Calculus_Type_Button button);
